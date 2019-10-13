@@ -62,15 +62,15 @@ h1, h2, h3, h4 {
 
 /* Login styles*/
 form {
-    position: absolute;
-
+    position: absolute !important;
 }
 
 input {
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 100%;
+    width: 100% !important;
     height: 30px;
+    font-size: initial;
 }
 
 .form-group {
@@ -82,4 +82,4 @@ label.inputLabel{
 }
 input:hover {
     border-color: #622b5e;
-  }
+}
